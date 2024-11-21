@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/crystals/static/css/main.8a04afec.css",
+    "main.js": "/crystals/static/js/main.1d38ced6.js",
+    "static/js/453.25de1330.chunk.js": "/crystals/static/js/453.25de1330.chunk.js",
+    "static/media/pinky.jpg": "/crystals/static/media/pinky.8ad5861f27f24a61d7e6.jpg",
+    "static/media/github.jpg": "/crystals/static/media/github.4f0372a549e69e38b2c0.jpg",
+    "index.html": "/crystals/index.html",
+    "main.8a04afec.css.map": "/crystals/static/css/main.8a04afec.css.map",
+    "main.1d38ced6.js.map": "/crystals/static/js/main.1d38ced6.js.map",
+    "453.25de1330.chunk.js.map": "/crystals/static/js/453.25de1330.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a04afec.css",
+    "static/js/main.1d38ced6.js"
+  ]
+}
