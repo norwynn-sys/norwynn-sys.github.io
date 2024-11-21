@@ -1,0 +1,306 @@
+
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #1F1F21 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+
+
+/* Navbar Styles */
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
+
+
+nav.navbar.scrolled {
+  padding: 0;
+  background-color: #1F1F21 !important;
+}
+
+nav.navbar a.navbar-brand {
+  width: 9%;
+  
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-start; /* Change this to 'center' or 'space-between' for different alignments */
+  margin-left: 730px; /* Adjust this value as needed */
+  margin-bottom: -30px;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 700;
+  color: #fff !important;
+  letter-spacing: 0.10px;
+  padding: 0px 25px;
+  font-size: 18px;
+  opacity: 0.75;
+  text-decoration: none;
+  font-size: 23px;
+  margin-top: -25px;
+}
+
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover, 
+nav.navbar .navbar-nav a.nav-link.navbar-link.activer {
+  opacity: 1;
+}
+
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+
+.navbar-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 10px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  margin-left: 900px;
+}
+
+
+
+.navbar-text button span {
+  z-index: 1;
+  font-size: 16px;
+}
+
+.navbar-text button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #FFF48E;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-text button:hover {
+  color: #1F1F21;
+}
+
+.navbar-text button:hover::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.connect-button .vvd {
+  margin-left: -2330px; 
+  margin-top: 500px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 34px;
+  font-size: 16px;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon img {
+  width: 418px;
+  height: 411px;
+  background: #1F1F21 !important;
+  display: inline-flex;
+  border-radius: 50%;
+  margin-left: 1000px;
+  margin-top: 200px;
+  justify-content: right;
+  line-height: 1;
+  border: 5px solid #FFF48E !important;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+
+}
+
+.social-icon img:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
+}
+
+.github {
+  display: flex; 
+  margin-left: 1480px;
+  margin-top: -620px;
+}
+
+
+.github-logo a {
+  text-decoration: none; 
+}
+
+.github-logo img {
+  width: 50px; 
+  height: auto; 
+  display: block; 
+  border-radius: 8px; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.github-logo img:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
+}
+  
+
+  .navbar-toggler {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    display: flex;  
+    margin-top: 75px;
+    margin-left: 20px;
+  }
+
+
+  .navbar-toggler .navbar-toggler-icon {
+    color: #FFF48E; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+    font-size: 25px;
+  }
+
+  .navbar-toggler:hover .navbar-toggler-icon {
+    color: white;
+  }
+
+  
+  .crystal {
+    position: fixed; 
+    top: 330px;  /* Adjust this as necessary */
+    left: 160px;     /* Set the left to 0 to align it with the left edge */
+    font-size: 60px; /* Font size for the text */
+    font-weight: bold;
+    color: #FFF;
+    padding: 5px 10px;
+    z-index: 1000;
+  }
+  
+
+.hello {
+  position: absolute; 
+  top: 290px; 
+  left: 268px;
+  transform: translateX(-50%); 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #FFF48E;
+  padding: 5px 10px; 
+  font-size: 25px;
+  
+}
+
+
+.cap {
+  font-size: 15px; /* Adjust the size of the text */
+  line-height: 1.5; /* Add spacing between lines */
+  color: #FFF48E; /* Set text color */
+  text-align: left; /* Center-align text if needed */
+  margin-top: 310px;
+  margin-left: 170px;
+  font-weight: 100;
+
+}
+
+.cap span {
+  display: block; /* Makes each span act as a block element to stack vertically */
+  margin-bottom: 5px; /* Add spacing between spans */
+}
+
+.welcome {
+  font-size: 18px; /* Adjust the size of the text */
+  line-height: 1.5; /* Add spacing between lines */
+  color: #ffffff; /* Set text color */
+  text-align: left; /* Center-align text if needed */
+  margin-top: 20px;
+  margin-left: 170px;
+  font-weight: 300;
+
+}
+
+
+
+
+
+
+/* App Styling */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #eefbff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
